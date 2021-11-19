@@ -1,3 +1,5 @@
+-- select permissions from dba by script
+
 select distinct t.authorizable_type, t.project, t.workbook, t.workbook_id, t.project_id, t.group_name, t.grantee_type,
   t.user_name, t.user_id, t.Permission_type, t.deny, t.allow
 
